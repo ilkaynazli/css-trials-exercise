@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+        body {
+            margin: 0;
+        }
+        #red {
+            background-color: red;
+        }
+
+        #blue {
+            background: blue;
+        }
+        .left {
+            margin: 50px 25px 50px 50px;
+        }
+        .right {
+            margin: 50px 50px 50px 25px;
+        }
+        .stripe {
+            display: inline-block;
+            width: 350px;
+            height: 200px;
+
+        }
+        .square {
+            display: inline-block;
+            background-color: black;
+            height: 100px;
+            width: 100px;
+        }
+
+    </style>
+  </head>
+
+  <body>
+    <!-- Watch out, you have to have all these divs jammed against each other without any space or newlines in between or one 
+    stripe won't fit within the 350px across -->
+    <div id="red" class="stripe"><div class="square left"></div><div class="square right"></div>
+    </div><div id="blue" class="stripe"><div class="square left"></div><div class="square right"></div>    
+    </div>
+  </body>
+
+</html>
