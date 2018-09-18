@@ -6,20 +6,39 @@
     body{
         margin:0;
     }
-    div {
+    .flag {
         margin: 0;
-        height: 240px;
-        width: 350px;
+        height: 300px;
+        width: 500px;
         background-color: #ff0000;
-            }
+    }
+    .stripe {
+      margin: 0;
+      height: 33.3%;
+    }
+
+    #middle {
+      background-color: red;
+    }
+
+    #top {
+      background-color: black;
+    }
+
+    #bottom {
+      background-color: #ffd700;
+    }
 
     </style>
   </head>
 
   <body>
-    <div>
-
+    <div class="flag">
+      <div class="stripe" id="top"></div>
+      <div class="stripe" id="middle"></div>
+      <div class="stripe" id="bottom"></div>
     </div>
+    
   </body>
 
 </html>
